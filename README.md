@@ -1,4 +1,4 @@
-# Final Project [Web 2](https://github.com/hnxb/web2): ABINE CINEMA: Modern cinema system | Abine Cinema :ticket: :seat: :clapper:
+# Leak code frontend Abine Cinema :ticket: :seat: :clapper:
 
 ## Made with [@nest](https://nestjs.com), [@react](https://reactjs.org) & [@prisma](https://www.prisma.io) :grinning:
 
