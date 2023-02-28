@@ -1,0 +1,107 @@
+section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+.login-form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+}
+.login-control input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 0.6em 0;
+  background-color: transparent;
+  border-bottom: 2px solid crimson;
+}
+::placeholder {
+  color: rgb(189, 184, 184);
+}
+.login-control input[type='submit'] {
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  transition: 0.3s;
+  border: 2px solid crimson;
+}
+.login-control input[type='submit']:hover {
+  background-color: crimson;
+  border: 2px solid transparent;
+}
+.login-control p {
+  color: rgb(240, 60, 60);
+}
+.login-control a {
+  color: rgb(189, 184, 184);
+  text-decoration: none;
+}
+.login-control a:hover {
+  color: crimson;
+}
+.login-with {
+  text-align: center;
+}
+.link {
+  display: flex;
+  cursor: pointer;
+  margin: 0 0 20px 0;
+}
+.facebook,
+.google {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin: 5px;
+  text-align: center;
+}
+.facebook {
+  background-color: #4267b2;
+  border: 1px solid #3e61a8;
+}
+.google {
+  background-color: #d44a3c;
+  border: 1px solid #db4939;
+}
+.link span {
+  font-size: 16px;
+  margin-left: 2px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.signup {
+  text-align: center;
+}
+.signup a {
+  color: rgb(189, 184, 184);
+  text-decoration: none;
+}
+.signup a:hover {
+  color: crimson;
+}
+@media only screen and (max-width: 330px) {
+  .login-form-container {
+    width: 80%;
+  }
+  .link span {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.theme-dark{
+  &.container__wrap{
+    background-color: #2a2a31;
+  }
+  
+}
+.layout {
+  &.layout--collapse {
+    & .container__wrap {
+      padding-left: 60px;
+    }
+  }
+}

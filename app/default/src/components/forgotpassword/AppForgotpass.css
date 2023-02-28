@@ -1,0 +1,64 @@
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.forgot-form-container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.8);
+    width: 320px;
+    padding:20px;
+    border-radius: 10px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+}
+.forgotpass-control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 0.6em 0;
+    background-color: transparent;
+    border-bottom: 2px solid crimson;
+}
+::placeholder{
+    color: rgb(189, 184, 184);
+}
+.forgotpass-control input[type="submit"]{
+    background-color:transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    transition: 0.3s;
+    border: 2px solid crimson;
+}
+.forgotpass-control input[type="submit"]:hover{
+    background-color: crimson;
+    border:2px solid transparent;
+}
+.forgotpass-control p{
+    color: rgb(240, 60, 60);
+}
+.forgotpass-control a{
+    color: #fff; color: rgb(189, 184, 184);
+    text-decoration: none;
+}
+.forgotpass-control a:hover{
+    color: crimson;
+}
+@media only screen and (max-width: 330px) {
+    .forgot-form-container{
+        width:80%;
+    }
+  }

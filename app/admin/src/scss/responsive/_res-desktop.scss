@@ -1,0 +1,13 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .table {
+    .button_group{
+      .btn {
+        padding: 0 0.2rem;
+        &.btn-warning{
+
+          margin-right: 10px!important;
+        }
+      }
+    }
+  }
+}

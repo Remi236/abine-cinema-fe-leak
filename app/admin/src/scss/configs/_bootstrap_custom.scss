@@ -1,0 +1,37 @@
+// $enable-gradient: true;
+// $success: #A7D66F;
+// $secondary:#E2E2E2;
+// $light-success: #CFE4A9;
+// $footer: #383D41;
+// $theme-colors: () !default;
+// $theme-colors: map-merge(
+//   (
+//     "light-success": $light-success,
+//     "footer": $footer
+//   ),
+//   $theme-colors
+// );
+// $spacer: 1rem !default;
+// $spacers: () !default;
+// $spacers: map-merge(
+//   (
+//     0: 0,
+//     1: ($spacer * .25), // 4px
+//     2: ($spacer * .5), // 8px
+//     3: ($spacer * .75), // 12px
+//     4: $spacer, // 16px
+//     5: ($spacer * 1.25), // 20px
+//     6: ($spacer * 1.5), // 24px
+//     7: ($spacer * 1.75), // 28px
+//     8: ($spacer * 2), // 32px
+//     9: ($spacer * 3), // 48px
+//     10: ($spacer * 5) // 80px
+//   ),
+//   $spacers
+// );
+
+// $container-max-widths: (
+//   xl: 1320px
+// ) !default;
+
+// $breadcrumb-divider: quote("·");

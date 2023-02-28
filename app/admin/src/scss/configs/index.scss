@@ -1,0 +1,12 @@
+@import "~bootstrap/dist/css/bootstrap";
+@import "~react-datepicker/dist/react-datepicker.min.css";
+
+@import "./bootstrap_custom";
+@import "./colors";
+@import "./variables";
+@import "./global";
+
+@import './scaffolding';         // styles of base elements
+@import './typography';          // base styles of h1-h6, p, span
+@import './normalize';          
+

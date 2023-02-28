@@ -1,0 +1,56 @@
+div.modal-body {
+  padding: 5px;
+}
+.carousel-caption .playicon {
+  color: rgba(255, 255, 255, 0.7);
+  height: 100px;
+  width: 100px;
+  margin-bottom: 300px;
+}
+.carousel-caption .playicon:hover {
+  color: rgba(236, 40, 40, 0.9);
+}
+@media screen and (max-width: 1200px) {
+  .carousel-caption .playicon {
+    margin-bottom: 200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .carousel-caption .playicon {
+    margin-bottom: 150px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .carousel-caption .playicon {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .carousel-caption .playicon {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .carousel-caption .playicon {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .carousel-caption .playicon {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .carousel-caption .playicon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .carousel-caption .playicon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+}

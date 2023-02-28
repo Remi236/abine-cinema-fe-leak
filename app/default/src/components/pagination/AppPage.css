@@ -1,0 +1,16 @@
+.page-link{
+    color: crimson;
+    background-color: transparent;
+    border: 1px solid crimson;
+}
+.page-link:hover{
+    color: white;
+    background-color: crimson;
+    border: 1px solid crimson;
+}
+.page-item.active .page-link{
+    z-index: 3;
+    color: #fff;
+    background-color: crimson;
+    border-color: crimson;
+}

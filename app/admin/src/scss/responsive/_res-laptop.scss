@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+  .table {
+    .button_group{
+      button {
+        &.btn-warning{
+
+          margin-right: 10px!important;
+        }
+      }
+    }
+  }
+}

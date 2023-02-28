@@ -1,0 +1,42 @@
+.container-fluid {
+  background-color: black;
+  color: white;
+}
+.logo-text {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 10px;
+  letter-spacing: 3px;
+}
+.text-intro {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+  word-spacing: -1px;
+}
+.text-category {
+  border-bottom: 1.5px solid #fd183e;
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.icon-ai {
+  word-spacing: 2px;
+  font-size: 16px;
+  color: white;
+}
+.icon-ai svg {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 0;
+}
+.cinema-logo img {
+  margin: 5px;
+}
+.footer-copyright {
+  padding-bottom: 10px;
+  text-align: center;
+}

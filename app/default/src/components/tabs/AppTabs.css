@@ -1,0 +1,25 @@
+nav.nav.nav-tabs{
+    background-color:#080808;
+    border-bottom: none;
+}
+.movie-tabs > .nav-item{
+    background-color: #080808;
+    border: none;
+    color: white;
+    margin-left: 0.5px;
+    border-bottom: 2.5px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.movie-tabs > .nav-item:hover{
+    color: crimson;
+    border-bottom: 2.5px solid crimson;
+}
+.movie-tabs > .nav-item.active{
+    color: crimson;
+    background: transparent;
+    border-bottom: 2.5px solid crimson;
+}
+.movie-text{
+    margin:20px;
+    color: white;
+}

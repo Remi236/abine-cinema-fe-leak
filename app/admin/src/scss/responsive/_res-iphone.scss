@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+  .layout.layout--collapse {
+    .container__wrap{
+      padding-left: 0!important;
+    }
+  } 
+  .pagination__wrap {
+    flex-direction: column;
+    text-align: center;
+    .pagination{
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  }
+  .table__search{
+    .table__search-input{
+      max-width: 170px!important;
+    }
+  }
+  .topbar__menu-wrap{
+    right: -12px !important;
+  }
+}
